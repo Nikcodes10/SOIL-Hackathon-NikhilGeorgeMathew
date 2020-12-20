@@ -11,6 +11,6 @@ export interface Review {
     timestamp: string,
     likes: string,
     user: User,
-    comments_count: "0"
+    comments_count: string
     
 }

@@ -19,3 +19,9 @@ $base-color: #bd1522;
     border-width: 3px;
     border-color: white;
 }
+
+@media (max-width: 440px) {
+    .z-title {
+        margin-left: 0 !important;
+    }
+}

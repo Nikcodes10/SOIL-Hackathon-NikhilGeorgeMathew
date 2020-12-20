@@ -73,3 +73,9 @@ input:focus {
         height: 85vh;
     }
 }
+
+@media (max-width: 440px) {
+    .desc {
+        word-break: break-all;
+    }
+}

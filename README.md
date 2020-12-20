@@ -2,7 +2,7 @@
 
 - This website is made by using Angular for front-end development. 
 - Data is fetched via Zomato API.
-- [Website URL](https://nikcodes10.github.io/SOIL-Hackathon-NikhilGeorgeMathew/)
+- [Website](https://nikcodes10.github.io/SOIL-Hackathon-NikhilGeorgeMathew/)
 
 ## Overview
 

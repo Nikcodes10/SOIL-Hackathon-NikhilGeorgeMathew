@@ -1,1 +1,1 @@
-export const default_image = '../../assets/default.jpeg';
+export const default_image = 'assets/default.jpeg';

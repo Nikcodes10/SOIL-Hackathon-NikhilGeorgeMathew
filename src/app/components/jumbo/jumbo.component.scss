@@ -1,0 +1,75 @@
+.jumbotron {
+    background-image: url('https://b.zmtcdn.com/data/images/order/home_page_bg.jpg?output-format=webp');
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text {
+    color: white;
+    position: absolute;
+    margin-top: 25vh;
+}
+.field {
+    position: absolute;
+    margin-top: 45vh;
+    line-height: 38px;
+    padding: 13px;
+}
+input {
+    border: solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+input:focus {
+    outline: none;
+}
+.suggestions {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid white;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -4px;
+    cursor: pointer;
+}
+.opace {
+    opacity: 0.8;
+}
+.search {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #099e44;   
+    color: white;
+    line-height: 30px;
+}
+.search:focus {
+    outline: none;
+}
+.search:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 900px) {
+    .jumbotron {
+        height: 80vh;
+    }
+    .search {
+        font-size: small;
+        padding-left: 7px;
+    }
+}
+
+@media (max-width: 600px) {
+    .field {
+        margin-top: 50vh;
+    }
+    .jumbotron {
+        height: 85vh;
+    }
+}

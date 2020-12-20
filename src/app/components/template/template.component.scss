@@ -1,0 +1,81 @@
+.main-text {
+    margin-top: 30px;
+    text-align: center;
+}
+.my-card {
+    text-align: center;
+}
+.caption {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.download {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    background-color: #f1f1f1;
+    height: 70vh;
+    padding: 70px; 
+    div {
+        position: relative;
+    }
+    p {
+        font-size: larger;
+    }
+    .btns {
+        margin-top: 15px;
+       
+    }
+    .or-group {
+        margin-top: 10px;
+    }
+    .d-sec {
+        position: absolute;
+        right: 50px;
+    }
+    .input-group {
+        left: 13px;
+        height: 30px;
+        
+        input {
+            margin-right: 1px;
+            border: 1px solid #e2e2df;
+            border-radius: 5px;
+        }
+    }
+    .link-btn {
+        margin-top: 10px;
+        left: 13px;
+        height: 35px;
+        button {
+            background-color: #d90429;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+        .d-sec {
+            position: relative;
+            left: 0;
+    }
+    .download {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .target {
+        margin-top: 60vh;
+    }
+    .encaps {
+        justify-content: flex-end;
+    }
+}

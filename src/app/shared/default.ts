@@ -1,0 +1,1 @@
+export const default_image = '../../assets/default.jpeg';

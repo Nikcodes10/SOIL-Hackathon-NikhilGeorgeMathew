@@ -1,0 +1,21 @@
+$base-color: #bd1522;
+.toolbar {
+    background-color: $base-color;
+    color: white;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.btn {
+    background-color: $base-color;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+}
+.create-btn {
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+}
